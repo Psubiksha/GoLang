@@ -1,2 +1,0 @@
-SELECT * FROM OPENROWSET (BULK 'E:\users.json', Single_CLOB) AS import;
-SELECT * FROM OPENROWSET (BULK 'E:\likes.json', Single_CLOB) AS import;
